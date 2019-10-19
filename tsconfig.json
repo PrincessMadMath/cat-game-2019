@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "es6",
+        "typeRoots": [ "./node_modules/@types", "./node_modules/phaser/types", ],
+        "types": [
+            "Phaser"
+          ]
+    },
+    "include": ["src/*"],
+    
+}
