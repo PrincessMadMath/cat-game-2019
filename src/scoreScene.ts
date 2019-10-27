@@ -14,7 +14,13 @@ export class ScoreScene extends Phaser.Scene {
         this.score = params.starsCaught;
     }
 
+    preload() {
+        this.load.image("bg-cat", "assets/cat-background.png");
+    }
+
     create(): void {
+        this.add.image(0, 0, "bg-cat").setOrigin(0, 0);
+
         var resultText: string = "Your score is " + this.score + "!";
         this.result = this.add.text(200, 250, resultText, {
             font: "48px Arial Bold",

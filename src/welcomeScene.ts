@@ -10,17 +10,23 @@ export class WelcomeScene extends Phaser.Scene {
         });
     }
 
+    preload() {
+        this.load.image("bg-cat", "assets/cat-background.png");
+    }
+
     create(): void {
-        const titleText = "Virus Cat Game";
-        this.title = this.add.text(150, 200, titleText, {
-            font: "128px Arial Bold",
-            fill: "#FBFBAC",
+        this.add.image(0, 0, "bg-cat").setOrigin(0, 0);
+
+        const titleText = "Collect all the YARN for \n    a special PRIZE!";
+        this.title = this.add.text(50, 100, titleText, {
+            font: "64px Arial Bold",
+            fill: "#dfff2c",
         });
 
-        var hintText: string = "Click to start";
-        this.hint = this.add.text(300, 350, hintText, {
+        var hintText: string = "Click to start the game...";
+        this.hint = this.add.text(500, 700, hintText, {
             font: "24px Arial Bold",
-            fill: "#FBFBAC",
+            fill: "#000",
         });
 
         this.input.on(

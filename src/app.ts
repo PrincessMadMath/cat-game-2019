@@ -6,7 +6,7 @@ import "phaser";
 const config: Phaser.Types.Core.GameConfig = {
     title: "Cat Virus Game",
     width: 800,
-    height: 600,
+    height: 799,
     parent: "game",
     scene: [WelcomeScene, GameScene, ScoreScene],
     physics: {
