@@ -45,7 +45,7 @@ export class GameScene extends Phaser.Scene {
         this.load.image("bg-cat", "assets/cat-background.png");
         this.load.image("cat", "assets/cat-face.png");
         this.load.image("yarn", "assets/yarn.png");
-        this.load.image("empty", "assets/yarn.png");
+        this.load.image("empty", "assets/empty.png");
 
         this.load.audio("music", "assets/zero.mp3");
 
