@@ -55,6 +55,7 @@ export class GameScene extends Phaser.Scene {
     create(): void {
         this.add.image(0, 0, "bg-cat").setOrigin(0, 0);
         this.catCursor = this.physics.add.image(400, 400, "cat");
+        this.catCursor.setCollideWorldBounds(true);
 
         this.comboFire = this.add.particles("fire");
 
@@ -75,7 +76,7 @@ export class GameScene extends Phaser.Scene {
         this.yarnGuide.setBounce(0.9, 0.9);
         this.yarnGuide.setCollideWorldBounds(true);
         this.yarnGuide.setMaxVelocity(250, 250);
-        this.yarnGuide.setDisplaySize(275, 50);
+        this.yarnGuide.setDisplaySize(275, 75);
     }
 
     update(time: number): void {
