@@ -5,7 +5,7 @@ Tout d'abord, bonne fête mon coeur! Cette année je me suis inspiré d'un clip 
 4- Ce que tu lances après avoir dit "watch this" mais sans accent
 5- La réponse pour ce mot est au début de l'avion
 6- Montagne que la nièce de la belle-soeur de l'époux de la brue de ma grand-mère pensait au Groenland
-7- Domaine de l'Angleterre
+7- Domaine de l'Allemagne
 9- La plus belle
 
 
@@ -18,5 +18,5 @@ Tout d'abord, bonne fête mon coeur! Cette année je me suis inspiré d'un clip 
 "De": 4- Ce que tu lances après avoir dit "watch this" mais sans accent
 "L'": 5- La réponse pour ce mot est au début de l'avion
 "Everest": 6- Montagne que la nièce de la belle-soeur de l'époux de la brue de ma grand-mère pensait au Groenland
-"De": 7- Domaine de l'Angleterre
+"De": 7- Domaine de l'Allemagne
 "Mika": 9- La plus belle

@@ -10,7 +10,7 @@ Tout d'abord, bonne fête mon coeur!
  4- Ce que tu lances après avoir dit "watch this" mais sans accent
  5- La réponse pour ce mot est au début de l'avion
  6- Montagne que la nièce de la belle-soeur de l'époux de la brue de ma grand-mère pensait au Groenland
- 7- Domaine de l'Angleterre
+ 7- Domaine de l'Allemagne
  9- La plus belle`;
 
 const splittedEnigma = enigma.split(" ");
